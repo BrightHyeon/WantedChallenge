@@ -20,7 +20,7 @@ final class ViewController: UIViewController {
     private let tableView: UITableView = {
         let tableView = UITableView()
         tableView.separatorStyle = .none // 구분선 x
-        tableView.allowsSelection = false // cell highlight x
+        tableView.allowsSelection = false // cell's selected color x
         tableView.isScrollEnabled = false // scroll x
         tableView.translatesAutoresizingMaskIntoConstraints = false
         tableView.register(Cell.self, forCellReuseIdentifier: "cell")
